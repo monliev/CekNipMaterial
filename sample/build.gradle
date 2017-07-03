@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.infotechnodev.ceknip"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion '25.0.3'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //compile 'com.google.android.gms:play-services-ads:11.0.0'
+    compile project(':library')
+    //    compile "com.thefinestartist:ceknip:${rootProject.ext.versionName}"
+
+    compile "com.android.support:support-annotations:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    //    compile "com.android.support:support-vector-drawable:${rootProject.ext.supportLibVersion}"
+    //    compile "com.android.support:palette-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:design:${rootProject.ext.supportLibVersion}"
+    //    compile "com.android.support:recyclerview-v7:${rootProject.ext.supportLibVersion}"
+
+    //    compile "com.google.android.gms:play-services-base:${rootProject.ext.playLibVersion}"
+    //    compile "com.google.android.gms:play-services-gcm:${rootProject.ext.playLibVersion}"
+    //    compile "com.google.android.gms:play-services-plus:${rootProject.ext.playLibVersion}"
+    //    compile "com.google.android.gms:play-services-analytics:${rootProject.ext.playLibVersion}"
+    //    compile "com.google.android.gms:play-services-location:${rootProject.ext.playLibVersion}"
+    //    compile "com.google.android.gms:play-services-maps:${rootProject.ext.playLibVersion}"
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.github.chyrta:AndroidOnboarder:0.6'
+    compile 'com.google.firebase:firebase-core:11.0.2'
+    compile 'com.google.firebase:firebase-messaging:11.0.2'
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,57 @@
+<resources>
+  <string name="app_name">Cek NIP &amp; Profil PNS</string>
+    <string name="deskripsi">Aplikasi Portal Informasi Cek NIP PNS &amp; CPNS BKN RI serta Berita,
+        Pemerintahan, Sosial Media Badan Kepegawaian Negara Republik Indonesia</string>
+
+  <!-- AdMob ad unit IDs -->
+  <string name="banner_home_footer_" translatable="false">ca-app-pub-3940256099942544/6300978111</string> Test Ad Unit
+  <string name="banner_home_footer" translatable="false">ca-app-pub-2953879827169015/2192728288</string>
+
+  Tentang Trenggalek
+  <string name="menu_title_1">Cek NIP PNS &amp; CPNS</string>
+  <string name="menu_title_2">Situs BKN</string>
+  <string name="menu_title_3">Layanan Mutasi Kepegawaian</string>
+  <string name="menu_title_4">Lainnya</string>
+  <string name="menu_title_5">Kritik | Pertanyaan | Saran?</string>
+
+  <string name="title_nav_1">Cek NIP</string>
+  <string name="title_nav_2">Web BKN</string>
+  <string name="title_nav_3">Berita Terbaru</string>
+  <string name="title_nav_4">Statistik PNS</string>
+  <string name="title_nav_5">Pengadaan NIP</string>
+  <string name="title_nav_6">Kenaikan Pangkat</string>
+  <string name="title_nav_7">SK Pensiun</string>
+  <string name="title_nav_8">Regulasi</string>
+  <string name="title_nav_9">Pengumuman</string>
+  <string name="title_nav_10">Lapor Pungli!</string>
+  <string name="title_nav_11">Hubungi Kami</string>
+
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_welcome">Home Screen</string>
+  <string name="next">NEXT</string>
+  <string name="skip">SKIP</string>
+  <string name="start">GOT IT</string>
+
+  <string name="slide_1_title">VISI</string>
+  <string name="slide_1_desc">Menjadi Pembina dan Penyelenggara Manajemen Kepegawaian yang Profesional dan Bermartabat Tahun 2025</string>
+
+  <string name="slide_2_title">MISI</string>
+  <string name="slide_2_desc">1. Mengembangkan Sistem Manajemen Kepegawaian Negara. 2.
+      Mengembangkan Sistem Pelayanan Kepegawaian. 3. Mengembangkan Manajemen Internal BKN.</string>
+
+  <string name="slide_3_title">TUGAS</string>
+  <string name="slide_3_desc">Melaksanakan tugas pemerintahan di bidang manajemen kepegawaian negara sesuai ketentuan peraturan perundang-undangan.</string>
+
+  <string name="slide_4_title">Hubungi Kami</string>
+  <string name="slide_4_desc">Badan Kepegawaian Negara
+\nJl. Letjen Sutoyo No. 12 Telp 021-8093008 021-80882815
+\nJakarta Timur 13640
+  \nhumasbknri@gmail.com</string>
+
+  <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+  <string name="play_again">Play Again</string>
+
+</resources>

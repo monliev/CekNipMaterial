@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.sourceCompatibility
+        targetCompatibility rootProject.ext.targetCompatibility
+    }
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    buildToolsVersion '25.0.3'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.android.support:support-annotations:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:design:${rootProject.ext.supportLibVersion}"
+    compile 'com.google.android.gms:play-services-ads:11.0.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.thefinestartist:utils:0.9.0'
+    compile 'com.github.chyrta:AndroidOnboarder:0.6'
+    compile 'com.google.firebase:firebase-core:11.0.2'
+    compile 'com.google.firebase:firebase-messaging:11.0.2'
+    apt 'com.thefinestartist:compilers:0.9.0'
+}
+
+publish {
+    userOrg = 'infotechnodev'
+    groupId = 'com.infotechnodev'
+    artifactId = 'ceknip'
+    publishVersion = rootProject.ext.versionName
+    desc = 'Beautiful and customizable Android Activity that shows web pages within an app.'
+    website = 'https://github.com/TheFinestArtist/FinestWebView-Android'
+}
+
+//$ ./gradlew clean build bintrayUpload -PbintrayUser=thefinestartist -PbintrayKey=BINTRAY_KEY -PdryRun=false

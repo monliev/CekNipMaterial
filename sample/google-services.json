@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "570838349386",
+    "firebase_url": "https://webview-cek-nip.firebaseio.com",
+    "project_id": "webview-cek-nip",
+    "storage_bucket": "webview-cek-nip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570838349386:android:0422affed7544708",
+        "android_client_info": {
+          "package_name": "com.infotechnodev.ceknip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570838349386-hs81qs79jquk38haip2umpjbu2bh1qga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infotechnodev.ceknip",
+            "certificate_hash": "928d0dec5683858c9bdb41178d13984758631317"
+          }
+        },
+        {
+          "client_id": "570838349386-lb5knmp208p42m7hemk82tipsliru8fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjLarS1dBWbFFg4IQSEOu0B94ZQ041uv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570838349386-lb5knmp208p42m7hemk82tipsliru8fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

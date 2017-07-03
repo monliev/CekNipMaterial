@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_title_1">
+        <menu>
+            <item
+                android:id="@+id/nav_satu"
+                android:icon="@drawable/ic_favorite_white_24dp"
+                android:title="@string/title_nav_1"/>
+        </menu>
+    </item>
+    <item android:title="@string/menu_title_2">
+        <menu>
+            <item
+                android:id="@+id/nav_dua"
+                android:icon="@drawable/ic_compare_arrows_white_24dp"
+                android:title="@string/title_nav_2"/>
+            <item
+                android:id="@+id/nav_tiga"
+                android:icon="@drawable/ic_compare_arrows_white_24dp"
+                android:title="@string/title_nav_3"/>
+            <item
+                android:id="@+id/nav_empat"
+                android:icon="@drawable/ic_compare_arrows_white_24dp"
+                android:title="@string/title_nav_4"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_3">
+        <menu>
+            <item
+                android:id="@+id/nav_lima"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_nav_5"/>
+            <item
+                android:id="@+id/nav_enam"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_nav_6"/>
+            <item
+                android:id="@+id/nav_tujuh"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_nav_7"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_4">
+        <menu>
+            <item
+                android:id="@+id/nav_delapan"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/title_nav_8"/>
+            <item
+                android:id="@+id/nav_sembilan"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/title_nav_9"/>
+            <item
+                android:id="@+id/nav_sepuluh"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/title_nav_10"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_5">
+        <menu>
+            <item
+                android:id="@+id/nav_sebelas"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/title_nav_11"/>
+        </menu>
+    </item>
+
+</menu>
